@@ -1,0 +1,34 @@
+@use './variables' as *;
+
+.header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header__nav {
+    .nav-list {
+        display: flex;
+        gap: 52px;
+    }
+
+    .nav-list-item {
+        &:last-child {
+            color: $secondary-color;
+        }
+    }
+
+    .nav-list-item-link {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
