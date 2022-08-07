@@ -1,0 +1,47 @@
+@use './variables' as *;
+
+.about-us {
+    padding: 160px 0;
+
+    .container {
+        position: relative;
+    }
+}
+
+.about-us__content {
+    position: absolute;
+    top: 74px;
+    right: 0;
+    background-color: $primary-color;
+    width: 488px;
+    height: 524px;
+    box-shadow: $shadow-1;
+    border-radius: 2px;
+    padding: 50px 60px 60px 40px;
+
+    h4 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 38px;
+        margin-bottom: 74px;
+    }
+
+    button {
+        background-color: #fff;
+        color: $primary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 20px;
+        gap: 10px;
+        border: 2px solid $primary-color;
+        border-radius: 6px;
+    }
+}

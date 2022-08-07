@@ -1,0 +1,44 @@
+@use './variables' as *;
+
+.services {
+    padding: 44px 108px 76px;
+    background-color: $neutral-50;
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px 98px;
+
+    .service-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 180px;
+        padding: 20px;
+        gap: 20px;
+        box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+        border-radius: 4px;
+        color: $primary-color;
+
+        &:nth-of-type(even) {
+            background-color: $primary-color;
+            color: #fff;
+            box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+        }
+    }
+
+    .rectangle {
+        width: 60px;
+        height: 2px;
+        background-color: $neutral-100;
+    }
+}

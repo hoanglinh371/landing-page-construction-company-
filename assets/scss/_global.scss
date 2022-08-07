@@ -1,3 +1,5 @@
+@use './variables' as *;
+
 * {
     margin: 0;
     padding: 0;
@@ -17,12 +19,13 @@ a {
     text-decoration: none;
 }
 
-.container-fluid {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .container {
     width: 1215px;
     margin: 0 auto;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: $neutral-800;
 }
