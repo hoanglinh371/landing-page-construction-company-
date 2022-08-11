@@ -244,4 +244,53 @@ a {
   background-color: #e0e3eb;
 }
 
+.bottom {
+  padding-top: 85px;
+  padding-bottom: 80px;
+}
+.bottom h3 {
+  color: #2947a9;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.bottom-left__text {
+  display: flex;
+  gap: 34px;
+}
+.bottom-left__text:nth-child(2) {
+  gap: 56px;
+}
+.bottom-left__text:nth-child(3) {
+  gap: 65px;
+}
+.bottom-left__text span {
+  font-size: 20px;
+  color: #292e3d;
+}
+.bottom-left__logo {
+  display: flex;
+  gap: 14px;
+}
+
+.footer {
+  background-color: #2947a9;
+  height: 70px;
+}
+.footer p {
+  line-height: 70px;
+  color: #fff;
+  font-size: 19px;
+}
+
 /*# sourceMappingURL=index.css.map */

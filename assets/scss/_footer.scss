@@ -1,0 +1,12 @@
+@use './variables' as *;
+
+.footer {
+    background-color: $primary-color;
+    height: 70px;
+
+    p {
+        line-height: 70px;
+        color: #fff;
+        font-size: 19px;
+    }
+}
